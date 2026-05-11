@@ -3,5 +3,24 @@
 }
 
 html {
-    background-color: black;
+    background-image: url("/assets/roast-beast-cat.gif");
+    background-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-element {
+    background-color: rgb(241, 210, 169);
+    width: 65em;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    box-shadow: 12px 12px 8px 0px black;
+    padding-bottom: 128px;
+}
+
+.page-element-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
